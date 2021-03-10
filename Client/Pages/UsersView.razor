@@ -1,0 +1,52 @@
+﻿@page "/usersview"
+@using BlazorTemplate.Models
+@inject HttpClient Http
+@using MudBlazor
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
+
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+
+
+@if (Elements == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <MudTable Items="@Elements" FixedHeader="@fixed_header" Height="@(fixed_header?"600px":"")">
+        <HeaderContent>
+            <MudTh>Nr</MudTh>
+            <MudTh>Sign</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Position</MudTh>
+            <MudTh>Molar mass</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Nr">@context.PE_NAME</MudTd>
+            <MudTd DataLabel="Sign">@context.PE_REM</MudTd>
+            <MudTd DataLabel="Name">@context.US_NAME</MudTd>
+            <MudTd DataLabel="Position">@context.US_ID</MudTd>
+            <MudTd DataLabel="Molar mass">@context.PE_ID</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager PageSizeOptions="new int[]{50, 100}" />
+        </PagerContent>
+    </MudTable>
+}
+
+@code {
+
+    bool fixed_header = true;
+    List<UserExtensionData> Elements;
+    protected override async Task OnInitializedAsync()
+    {
+        //Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("api/Personal/UserAccountDatas");
+        Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("Personal");
+    }
+}
