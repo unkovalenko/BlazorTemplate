@@ -13,15 +13,15 @@ namespace BlazorTemplate.Server.Controllers
     [Authorize]
     [ApiController]
     [Route("[controller]")]
-    public class PersonalController : Controller
-    { 
+    public class PersonalController : ControllerBase
+    {
 
-        private  EUnitOfWork unitOfWork;
+        private EUnitOfWork unitOfWork;
 
 
-        public PersonalController( EUnitOfWork unitOfWork)
+        public PersonalController(EUnitOfWork unitOfWork)
         {
-            this.unitOfWork = unitOfWork;       
+            this.unitOfWork = unitOfWork;
 
         }
 
@@ -31,6 +31,13 @@ namespace BlazorTemplate.Server.Controllers
         {
 
             return unitOfWork.ViewUsers.GetView().ToList();
+        }
+
+
+        [HttpGet("{id}")]
+        public string Get(int id )
+        {
+             return  new string("Привет API");
         }
     }
 }

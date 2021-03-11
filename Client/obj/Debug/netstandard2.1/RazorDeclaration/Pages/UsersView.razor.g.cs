@@ -127,7 +127,7 @@ using Microsoft.AspNetCore.Authorization;
     protected override async Task OnInitializedAsync()
     {
         //Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("api/Personal/UserAccountDatas");
-        Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("Personal");
+        Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("personal");
     }
 
 #line default

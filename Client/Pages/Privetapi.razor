@@ -1,0 +1,35 @@
+﻿@page "/privetapi"
+@using BlazorTemplate.Models
+@inject HttpClient Http
+@using MudBlazor
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
+
+
+<h1>Privet</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+
+
+@if (Privet == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+<p>@Privet</p>
+}
+
+@code {
+
+    bool fixed_header = true;
+    string Privet;
+    protected override async Task OnInitializedAsync()
+    {
+        //Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("api/Personal/UserAccountDatas");
+        
+        Privet = await Http.GetFromJsonAsync<string>("personal/2");
+    }
+}

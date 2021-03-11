@@ -7,7 +7,7 @@
 
 
 
-<h1>Weather forecast</h1>
+<h1>Personal</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
@@ -47,6 +47,6 @@ else
     protected override async Task OnInitializedAsync()
     {
         //Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("api/Personal/UserAccountDatas");
-        Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("Personal");
+        Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("personal");
     }
 }

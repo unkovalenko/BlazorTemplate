@@ -97,7 +97,7 @@ using MudBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "D:\MVS2019\Blazor\BlazorTemplate\Client\Shared\NavMenu.razor"
+#line 38 "D:\MVS2019\Blazor\BlazorTemplate\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

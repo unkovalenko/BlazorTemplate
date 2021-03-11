@@ -409,6 +409,8 @@ D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\AgVYu
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\LZ6KwVwcZLGKU9co7q_5PN23hxjMRRNk_uG4zUc6Xug=.hash
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\MudBlazor.dll.gz
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\MudBlazor.dll.br
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\LN7nPR7yFETktx0zJs_p2mygeyTAxYCQJe6WlWJJcdI=.hash
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\YaP6m1YMSF2DCQQc_VIychJElv-ZeLCyqLl6X3EPIBs=.hash
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\MZufGMUrsdkplHCOlGyosqccYVALLj0yjOzx75BShvw=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Privetapi.razor.g.cs
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\Razor\Pages\Privetapi.razor.g.cs
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\8eljtAYNDm2h0QGGdqHaFC5kwPUSBpuNPdALiZD_xqY=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\EUsGXvvOmdu76fhlMYL0JUJx578ZwS28J9aKD8YIWNI=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\Orr-0ZwWqeiMO2UOpARyhJiw-uLaPLPjWnodpbMy5Bo=.hash
