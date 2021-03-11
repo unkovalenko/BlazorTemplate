@@ -1799,25 +1799,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\unk_amd\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MVS2019\\Blazor\\BlazorTemplate\\Client\\BlazorTemplate.Client.csproj",
+      "projectUniqueName": "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Client\\BlazorTemplate.Client.csproj",
       "projectName": "BlazorTemplate.Client",
-      "projectPath": "D:\\MVS2019\\Blazor\\BlazorTemplate\\Client\\BlazorTemplate.Client.csproj",
-      "packagesPath": "C:\\Users\\unk_amd\\.nuget\\packages\\",
-      "outputPath": "D:\\MVS2019\\Blazor\\BlazorTemplate\\Client\\obj\\",
+      "projectPath": "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Client\\BlazorTemplate.Client.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\unk_amd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1832,8 +1835,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "D:\\MVS2019\\Blazor\\BlazorTemplate\\Shared\\BlazorTemplate.Shared.csproj": {
-              "projectPath": "D:\\MVS2019\\Blazor\\BlazorTemplate\\Shared\\BlazorTemplate.Shared.csproj"
+            "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Shared\\BlazorTemplate.Shared.csproj": {
+              "projectPath": "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Shared\\BlazorTemplate.Shared.csproj"
             }
           }
         }
@@ -1894,7 +1897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

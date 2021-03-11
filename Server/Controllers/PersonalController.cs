@@ -39,5 +39,11 @@ namespace BlazorTemplate.Server.Controllers
         {
              return  new string("Привет API");
         }
+
+        [HttpGet("{name}/{lastname}")]
+        public string Get(string name,string lastname)
+        {
+            return new string(lastname);
+        }
     }
 }

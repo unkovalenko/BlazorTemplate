@@ -11,6 +11,8 @@
 
 <p>This component demonstrates fetching data from the server.</p>
 
+<button class="btn btn-primary" @onclick="ApiString">Click me  id</button>
+<button class="btn btn-primary" @onclick="ApiName">Click me Name</button>
 
 
 @if (Privet == null)
@@ -19,17 +21,32 @@
 }
 else
 {
-<p>@Privet</p>
+    <p>@Privet</p>
 }
 
 @code {
 
     bool fixed_header = true;
-    string Privet;
+
+    string Privet="-----------------------------------------------------------------------------";
+
     protected override async Task OnInitializedAsync()
     {
         //Elements = await Http.GetFromJsonAsync<List<UserExtensionData>>("api/Personal/UserAccountDatas");
-        
-        Privet = await Http.GetFromJsonAsync<string>("personal/2");
+        Privet = await Http.GetStringAsync("personal/2");
+
     }
+
+    protected  async Task ApiString()
+    {
+        Privet = await  Http.GetStringAsync("personal/2");
+
+    }
+
+    private async Task ApiName()
+    {
+        Privet = await  Http.GetStringAsync("personal/HiUree/Nikolaevich");
+        
+    }
+
 }
