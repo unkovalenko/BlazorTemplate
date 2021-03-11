@@ -1,6 +1,6 @@
 /******************************************************************************/
 /* script generate entity for authentification  an IdentitySrever 4  netcore3.1 blazor */
-/****************  For firebird 2.5  *******************************/
+/******************************************************************************/
 
 
 
@@ -37,7 +37,7 @@ CREATE TABLE "__EFMigrationsHistory" (
     "MigrationId"     VARCHAR(150) NOT NULL,
     "ProductVersion"  VARCHAR(32) NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON   "__EFMigrationsHistory"   TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "__EFMigrationsHistory"   TO webuser;
 
 CREATE TABLE "AspNetRoleClaims" (
     "Id"          IDENTITY,
@@ -45,7 +45,7 @@ CREATE TABLE "AspNetRoleClaims" (
     "ClaimType"   BLOB SUB_TYPE 1 SEGMENT SIZE 80,
     "ClaimValue"  BLOB SUB_TYPE 1 SEGMENT SIZE 80
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetRoleClaims"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "AspNetRoleClaims"   TO webuser;
 
 CREATE TABLE "AspNetRoles" (
     "Id"                VARCHAR(256) NOT NULL,
@@ -53,7 +53,7 @@ CREATE TABLE "AspNetRoles" (
     "NormalizedName"    VARCHAR(256),
     "ConcurrencyStamp"  BLOB SUB_TYPE 1 SEGMENT SIZE 80
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON   "AspNetRoles"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON   "AspNetRoles"  TO webuser;
 
 CREATE TABLE "AspNetUserClaims" (
     "Id"          IDENTITY,
@@ -61,7 +61,7 @@ CREATE TABLE "AspNetUserClaims" (
     "ClaimType"   BLOB SUB_TYPE 1 SEGMENT SIZE 80,
     "ClaimValue"  BLOB SUB_TYPE 1 SEGMENT SIZE 80
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetUserClaims"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "AspNetUserClaims"   TO webuser;
 
 CREATE TABLE "AspNetUserLogins" (
     "LoginProvider"        VARCHAR(128) NOT NULL,
@@ -69,13 +69,13 @@ CREATE TABLE "AspNetUserLogins" (
     "ProviderDisplayName"  BLOB SUB_TYPE 1 SEGMENT SIZE 80,
     "UserId"               VARCHAR(256) NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON   "AspNetUserLogins"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "AspNetUserLogins"    TO webuser;
 
 CREATE TABLE "AspNetUserRoles" (
     "UserId"  VARCHAR(256) NOT NULL,
     "RoleId"  VARCHAR(256) NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetUserRoles"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetUserRoles"  TO webuser;
 
 CREATE TABLE "AspNetUsers" (
     "Id"                    VARCHAR(256) NOT NULL,
@@ -94,7 +94,7 @@ CREATE TABLE "AspNetUsers" (
     "LockoutEnabled"        BOOLEAN NOT NULL,
     "AccessFailedCount"     INTEGER NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetUsers"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "AspNetUsers"   TO webuser;
 
 CREATE TABLE "AspNetUserTokens" (
     "UserId"         VARCHAR(256) NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE "AspNetUserTokens" (
     "Name"           VARCHAR(128) NOT NULL,
     "Value"          BLOB SUB_TYPE 1 SEGMENT SIZE 80
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "AspNetUserTokens"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "AspNetUserTokens"   TO webuser;
 
 CREATE TABLE "DeviceCodes" (
     "UserCode"      VARCHAR(200) NOT NULL,
@@ -113,7 +113,7 @@ CREATE TABLE "DeviceCodes" (
     "Expiration"    TIMESTAMP NOT NULL,
     "Data"          BLOB SUB_TYPE 1 SEGMENT SIZE 80 NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "DeviceCodes"     TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON "DeviceCodes"   TO webuser;
 
 CREATE TABLE "PersistedGrants" (
     "Key"           VARCHAR(200) NOT NULL,
@@ -124,7 +124,7 @@ CREATE TABLE "PersistedGrants" (
     "Expiration"    TIMESTAMP,
     "Data"          BLOB SUB_TYPE 1 SEGMENT SIZE 80 NOT NULL
 );
-GRANT SELECT, INSERT, UPDATE, DELETE ON  "PersistedGrants"    TO WEBUSER;
+GRANT SELECT, INSERT, UPDATE, DELETE ON  "PersistedGrants"  TO webuser;
 
 
 
