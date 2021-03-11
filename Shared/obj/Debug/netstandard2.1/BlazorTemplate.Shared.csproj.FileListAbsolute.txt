@@ -1,0 +1,9 @@
+D:\MVS2019\Blazor\BlazorTemplate\Shared\bin\Debug\netstandard2.1\BlazorTemplate.Shared.deps.json
+D:\MVS2019\Blazor\BlazorTemplate\Shared\bin\Debug\netstandard2.1\BlazorTemplate.Shared.dll
+D:\MVS2019\Blazor\BlazorTemplate\Shared\bin\Debug\netstandard2.1\BlazorTemplate.Shared.pdb
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.csprojAssemblyReference.cache
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.AssemblyInfoInputs.cache
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.AssemblyInfo.cs
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.csproj.CoreCompileInputs.cache
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.dll
+D:\MVS2019\Blazor\BlazorTemplate\Shared\obj\Debug\netstandard2.1\BlazorTemplate.Shared.pdb
