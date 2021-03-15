@@ -11,6 +11,17 @@
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         }
       }
+    },
+    ".NETStandard,Version=v2.1/win-x64": {
+      "System.ComponentModel.Annotations/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -180,6 +191,11 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }

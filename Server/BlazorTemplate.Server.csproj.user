@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>BlazorTemplate.Server</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>D:\MSVS2019\Blazor\BlazorTemplate\Server\Properties\PublishProfiles\FolderProfile.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

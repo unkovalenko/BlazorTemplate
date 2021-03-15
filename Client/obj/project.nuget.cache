@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jhzZe2gEecTtTrL65DaYJ+HASEhTtH+/Q0bQg+bpBMZtOnLAIePH8MrSpJm9mI6twbRSCKH8LXzQSQAhrGEdAg==",
+  "dgSpecHash": "agl9/vkhTwxL/kHrIzEDxzPVlK5GvBzgwKqsPzouCcSyUaFqnGKcvi10zLJrQcN8XbyGbpCEj7ddOzp06sOjQA==",
   "success": true,
   "projectFilePath": "D:\\MSVS2019\\Blazor\\BlazorTemplate\\Client\\BlazorTemplate.Client.csproj",
   "expectedPackageFiles": [
