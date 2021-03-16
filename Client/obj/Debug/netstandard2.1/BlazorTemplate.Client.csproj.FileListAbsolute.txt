@@ -411,9 +411,6 @@ D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\compressed\_fra
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\MudBlazor.dll.br
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Privetapi.razor.g.cs
 D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\Razor\Pages\Privetapi.razor.g.cs
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\8eljtAYNDm2h0QGGdqHaFC5kwPUSBpuNPdALiZD_xqY=.hash
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\EUsGXvvOmdu76fhlMYL0JUJx578ZwS28J9aKD8YIWNI=.hash
-D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\Orr-0ZwWqeiMO2UOpARyhJiw-uLaPLPjWnodpbMy5Bo=.hash
 D:\MSVS2019\Blazor\BlazorTemplate\Client\bin\Debug\netstandard2.1\BlazorTemplate.Client.StaticWebAssets.xml
 D:\MSVS2019\Blazor\BlazorTemplate\Client\bin\Debug\netstandard2.1\BlazorTemplate.Client.dll
 D:\MSVS2019\Blazor\BlazorTemplate\Client\bin\Debug\netstandard2.1\BlazorTemplate.Client.pdb
@@ -830,3 +827,6 @@ D:\MSVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\BlazorTemplate
 D:\MSVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\Xdzh4EOtwtdt16jWa9jcc7MblC1P29a3IJpYVF6bdbw=.hash
 D:\MSVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\kz8gXN6rZYP3lRxoxdQeG5NYwJpIgrNnAF3eJyjyKVI=.hash
 D:\MSVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\cz4Xm2e90IiEBixezU1Ubu-YLGXPhakWDGl6v0lEO18=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\mRycS3SraO1uidO3QuwRjJL9SrJD1WHrYP3wAVOLul4=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\agU4HEQpjO_sC6q2E2IZBJUKsllrvxLg_Z-ip0H6QI4=.hash
+D:\MVS2019\Blazor\BlazorTemplate\Client\obj\Debug\netstandard2.1\integrity\ySNvraBNP9qKKWVy3_Xffrrso5VKg0Hz-QlEMrcpCI0=.hash

@@ -1,5 +1,5 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\MSVS2019\Blazor\BlazorTemplate\Client\bin\Debug\netstandard2.1\wwwroot\" />
-  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\Admin\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.1\build\..\staticwebassets\" />
-  <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\Admin\.nuget\packages\mudblazor\2.0.5\build\..\staticwebassets\" />
+  <ContentRoot BasePath="/" Path="D:\MVS2019\Blazor\BlazorTemplate\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\unk_amd\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/MudBlazor" Path="C:\Users\unk_amd\.nuget\packages\mudblazor\2.0.5\build\..\staticwebassets\" />
 </StaticWebAssets>
